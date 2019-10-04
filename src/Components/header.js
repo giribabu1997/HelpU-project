@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../App.scss';
 import firebase from '../firebase';
 import { connect } from 'react-redux';
+
 class Headerpage extends Component {
     state = {
         Logout: false

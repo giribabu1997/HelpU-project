@@ -49,6 +49,7 @@ class AppRoute extends React.Component {
         return this.state.loader ? <Loader /> : <App />
     }
 }
+
 const AppAuth = withRouter(connect(null, { setUser })(AppRoute));
 ReactDOM.render(
     <Provider store={store}>
